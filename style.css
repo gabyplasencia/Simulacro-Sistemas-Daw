@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Roboto+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +7,22 @@
 body{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
+    text-align: center;
     gap: 2rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    background-color: rgb(214, 231, 250);
+}
+
+h1{
+    align-self: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: max(2rem, 4rem);
+    margin-top: 1rem;
+    color: white;
+    text-shadow: rgb(24, 31, 42) 0px 0px 5px;
 }
 
 .wrapper{
@@ -19,6 +30,13 @@ body{
     flex-direction: column;
     text-align: center;
     gap:0.40rem;
+    padding: 1.6rem;
+    border-radius: 0.50rem;
+    border: 3px solid rgb(127, 180, 249);
+    background-color: white;
+    box-shadow: 0rem 0rem 0.5rem 0 rgb(56, 142, 255);
+    width: clamp(20rem, 70%, 50rem);
+    margin: 0 max(2rem, 30rem);
 }
 
 .wrapper .qtn{
@@ -28,11 +46,22 @@ body{
 }
 
 .wrapper .aws{
-    margin: 0 0.7rem;
     text-align: left;
+}
+.wrapper .aws:hover{
+    cursor: pointer;
+    background-color: rgb(214, 231, 250);
+    border-radius: 0.50rem;
+    padding: 0 0.3rem;
+    transition: background-color, padding 0.2s;
 }
 
 .wrapper .right{
     font-weight: 600;
     background-color: rgb(119, 215, 119);
+}
+
+.wrapper .incorrect{
+    font-weight: 600;
+    background-color: rgb(216, 48, 48);
 }

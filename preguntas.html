@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEST SISTEMA</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="quiz.js"></script>
 </head>
 <body>
-    <h1>PREGUNTAS GLOBAL</h1>
+    <h1>Simulacro de Examen<br>Sistema</h1>
 
     <div class="wrapper">
         <p class="qtn">Dentro de la gestión del procesador, la planificación no expropiativa de procesos supone:</p>
         <p class="aws">a. Que un proceso que se está ejecutando, puede pasar al estado preparado.</p>
         <p class="aws">b. Que cada pocos instantes, llamado cuanto, el planificador decide qué proceso se va a ejecutar.</p>
-        <p class="aws right">c. El algoritmo "FIFO" corresponde a este tipo de planificación.</p>
+        <p class="aws" data-right>c. El algoritmo "FIFO" corresponde a este tipo de planificación.</p>
         <p class="aws">d. Ninguna es cierta.</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Supongamos un PC con 4GB de memoria RAM. Especificar la falsa</p>
         <p class="aws">a. En Windows, la memoria virtual coincide con el archivo pagefile.sys en C</p>
         <p class="aws">b. En Linux, la memoria swap coincide con una partición</p>
-        <p class="aws right">c. Un buen tamaño de configuración de la memoria virtual o swap puede ser 2GB.</p>
+        <p class="aws" data-right>c. Un buen tamaño de configuración de la memoria virtual o swap puede ser 2GB.</p>
         <p class="aws">d. La memoria virtual es mucho mas lenta que la memoria RAM</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Dentro de la gestión de E/S se distinguen los periféricos por las estructuras que utilizan para manejar la información. El disco duro funciona con...</p>
         <p class="aws">a. Spool</p>
-        <p class="aws right">b. Buffer</p>
+        <p class="aws" data-right>b. Buffer</p>
         <p class="aws">c. Ambas</p>
         <p class="aws">d. Ninguna es cierta</p>
     </div>
@@ -36,11 +37,11 @@
         <p class="aws">a. Requiere que se le asigne tiempo de CPU</p>
         <p class="aws">b. Debe estar en estado Listo</p>
         <p class="aws">c. Cargado en memoria</p>
-        <p class="aws right">d. Todas son ciertas</p>
+        <p class="aws" data-right>d. Todas son ciertas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál no es una ventaja de instalar las Guest Adittions en una máquina virtual?</p>
-        <p class="aws right">a. Poder añadir un segundo disco duro a la máquina</p>
+        <p class="aws" data-right>a. Poder añadir un segundo disco duro a la máquina</p>
         <p class="aws">b. Poder ajustar la pantalla de la máquina virtual a la anfitrión</p>
         <p class="aws">c. Poder pasar de la máquina virtual a la anfitrión sin pulsar la tecla anfitrión</p>
         <p class="aws">d. Poder configurar una carpeta compartida entre máquina virtual y máquina anfitrión</p>
@@ -48,14 +49,14 @@
     <div class="wrapper">
         <p class="qtn">¿En qué consiste la multiprogramación?</p>
         <p class="aws">a. Los procesos se van ejecutando uno a uno, de forma que cuando uno finaliza comienza el siguiente de la cola</p>
-        <p class="aws right">b. Se cargan varios procesos en memoria y se alterna su ejecución.</p>
+        <p class="aws" data-right>b. Se cargan varios procesos en memoria y se alterna su ejecución.</p>
         <p class="aws">c. Se refiere a la gestión de varios procesadores al mismo tiempo</p>
         <p class="aws">d. Ninguna es cierta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En un sistema operativo distribuido…</p>
         <p class="aws">a. Los usuarios saben donde se ubican los recursos de la red</p>
-        <p class="aws right">b. Los usuarios no necesitan saber donde se ubican los recursos de la red, los localizan por su nombre</p>
+        <p class="aws" data-right>b. Los usuarios no necesitan saber donde se ubican los recursos de la red, los localizan por su nombre</p>
         <p class="aws">c. Los servicios de red se centralizan en un ordenador</p>
         <p class="aws">d. Novell y Windows Server son ejemplos de sistemas operativos distribuidos</p>
     </div>
@@ -63,33 +64,33 @@
         <p class="qtn">¿Qué es el software con copyleft?</p>
         <p class="aws">a. Es software propietario</p>
         <p class="aws">b. Es un software que permite a los redistribuidores agregar ciertas restricciones adicionales cuando lo redistribuyen o modifican</p>
-        <p class="aws right">c. Es un software libre que no permite a los redistribuidores agregar ninguna restricción adicional cuando lo redistribuyen o modifican, es decir, la versión modificada debe ser también libre</p>
+        <p class="aws" data-right>c. Es un software libre que no permite a los redistribuidores agregar ninguna restricción adicional cuando lo redistribuyen o modifican, es decir, la versión modificada debe ser también libre</p>
         <p class="aws">d. Ninguna es cierta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuántas libertades proporciona el software libre?</p>
         <p class="aws">a. 3</p>
-        <p class="aws right">b. 4</p>
+        <p class="aws" data-right>b. 4</p>
         <p class="aws">c. 5</p>
         <p class="aws">d. 2</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué tipo de sistemas operativos son Windows 7 y Windows 10?</p>
         <p class="aws">a. Monotarea</p>
-        <p class="aws right">b. Multitarea</p>
+        <p class="aws" data-right>b. Multitarea</p>
         <p class="aws">c. Monoprocesador</p>
         <p class="aws">d. Monolíticos</p>
     </div>
     <div class="wrapper">
         <p class="qtn">El algoritmo "SRT":</p>
-        <p class="aws right">a. Penaliza a los procesos largos</p>
+        <p class="aws" data-right>a. Penaliza a los procesos largos</p>
         <p class="aws">b. La sobrecarga del sistema es baja</p>
         <p class="aws">c. Penaliza los procesos cortos y los procesos con operaciones de E/S</p>
         <p class="aws">d. Son todas falsas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Un compresor de archivos y un procesador de textos son ejemplos de:</p>
-        <p class="aws right">a. Aplicaciones de propósito general</p>
+        <p class="aws" data-right>a. Aplicaciones de propósito general</p>
         <p class="aws">b. Aplicaciones de propósito específico</p>
         <p class="aws">c. Aplicaciones de propósito específico y general, respectivamente</p>
         <p class="aws">d. Aplicaciones de propósito general y específico, respectivamente</p>
@@ -98,19 +99,19 @@
         <p class="qtn">Los sistemas operativos cuya estructura estaba formada por un solo programa compuesto por rutinas entrelazadas reciben el nombre de:</p>
         <p class="aws">a. Monotarea</p>
         <p class="aws">b. Monoprocesador</p>
-        <p class="aws right">c. Monolítico</p>
+        <p class="aws" data-right>c. Monolítico</p>
         <p class="aws">d. Microkernel</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuáles esquemas se utilizan en la memoria virtual?</p>
         <p class="aws">a. Particiones fijas</p>
         <p class="aws">b. Particiones variables</p>
-        <p class="aws right">c. Paginación</p>
+        <p class="aws" data-right>c. Paginación</p>
         <p class="aws">d. Ninguna respuesta es correcta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En la gestión de E/S tenemos varias técnicas, el Acceso Directo a Memoria (DMA) consiste en que:</p>
-        <p class="aws right">a. La transferencia es realizada por un controlador especializado. Esta técnica acelera enormemente el proceso de la E/S y libera a la CPU de trabajo</p>
+        <p class="aws" data-right>a. La transferencia es realizada por un controlador especializado. Esta técnica acelera enormemente el proceso de la E/S y libera a la CPU de trabajo</p>
         <p class="aws">b. La CPU tiene todo el protagonismo ya que inicia y lleva a cabo la transferencia</p>
         <p class="aws">c. La CPU ejecuta la transferencia pero el inicio es pedido por el periférico que indica así su disponibilidad</p>
         <p class="aws">d. Ninguna es cierta</p>
@@ -118,7 +119,7 @@
     <div class="wrapper">
         <p class="qtn">¿Cuál es falsa sobre tarjetas gráficas?</p>
         <p class="aws">a. La salida de la tarjeta gráfica puede ser analógica o digital</p>
-        <p class="aws right">b. El componente RAMDAC convierte la imagen analógica en digital</p>
+        <p class="aws" data-right>b. El componente RAMDAC convierte la imagen analógica en digital</p>
         <p class="aws">c. La función de GPU es realizar los cálculos necesarios para obtener la imagen a representar</p>
         <p class="aws">d. Si se usa conector HDMI al monitor no hace falta conversión analógica-digital ni viceversa</p>
     </div>
@@ -126,26 +127,26 @@
         <p class="qtn">De las siguientes ranuras de expansión y conexiones de almacenamiento, ¿cuáles son todas serie?</p>
         <p class="aws">a. PATA, SATA, SAS</p>
         <p class="aws">b. PCI, SATA, SAS</p>
-        <p class="aws right">c. SATA, SAS, PCI-Express</p>
+        <p class="aws" data-right>c. SATA, SAS, PCI-Express</p>
         <p class="aws">d. SATA, PCI-Express, SCSI</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál de los siguientes elementos no es un registro de la CPU?</p>
         <p class="aws">a. El registro de instrucción</p>
         <p class="aws">b. El registro resultado</p>
-        <p class="aws right">c. El registro decodificador</p>
+        <p class="aws" data-right>c. El registro decodificador</p>
         <p class="aws">d. El registro contador de programa</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué voltaje no proporciona una fuente de alimentación?</p>
         <p class="aws">a. 3.3v</p>
         <p class="aws">b. 5v</p>
-        <p class="aws right">c. 10v</p>
+        <p class="aws" data-right>c. 10v</p>
         <p class="aws">d. 12v</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Cuando salen nuevos procesadores o nuevas memorias, con respecto a la anterior generación, se cumple:</p>
-        <p class="aws right">a. Menor voltaje y menor consumo</p>
+        <p class="aws" data-right>a. Menor voltaje y menor consumo</p>
         <p class="aws">b. Menor voltaje y mayor consumo</p>
         <p class="aws">c. Mayor voltaje y menor consumo</p>
         <p class="aws">d. Mayor voltaje y mayor consumo</p>
@@ -154,19 +155,19 @@
         <p class="qtn">¿Para qué sirve una fuente de alimentación?</p>
         <p class="aws">a. Para refrigerar el interior del ordenador con su ventilador</p>
         <p class="aws">b. Para crear y estabilizar la corriente alterna que necesita el ordenador</p>
-        <p class="aws right">c. Para suministrar la corriente continua que necesita el ordenador</p>
+        <p class="aws" data-right>c. Para suministrar la corriente continua que necesita el ordenador</p>
         <p class="aws">d. Para producir la energía que utilizan los motores de algunos componentes internos del ordenador</p>
     </div>
     <div class="wrapper">
         <p class="qtn">La mínima unidad física de almacenamiento es...</p>
-        <p class="aws right">a. el sector</p>
+        <p class="aws" data-right>a. el sector</p>
         <p class="aws">b. el cluster</p>
         <p class="aws">c. la partición</p>
         <p class="aws">d. el disco duro</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si queremos mover una carpeta de directorio y renombrarla:</p>
-        <p class="aws right">a. Se utiliza el comando move</p>
+        <p class="aws" data-right>a. Se utiliza el comando move</p>
         <p class="aws">b. Se utilizan 2 comandos obligatoriamente</p>
         <p class="aws">c. Se utiliza el comando copy</p>
         <p class="aws">d. Se utiliza el comando ren</p>
@@ -174,27 +175,27 @@
     <div class="wrapper">
         <p class="qtn">¿En que fichero se guarda la configuración de arranque del sistema operativo Windows 10?</p>
         <p class="aws">a. BCDEDIT.COM</p>
-        <p class="aws right">b. BCD.LOG</p>
+        <p class="aws" data-right>b. BCD.LOG</p>
         <p class="aws">c. BCDEDTI.EXE</p>
         <p class="aws">d. BCD.INI</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál de estos archivos no se ejecuta al iniciar Windows 10?</p>
         <p class="aws">a. bootmgr</p>
-        <p class="aws right">b. diskpart</p>
+        <p class="aws" data-right>b. diskpart</p>
         <p class="aws">c. bcd.log</p>
         <p class="aws">d. winload.exe</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Estamos situados en carpeta de juan. Utilizando ruta absoluta, queremos renombrar todos los archivos txt que se encuentren en esa carpeta a la extensión dat</p>
-        <p class="aws right">a. ren C:\Users\juan\*.txt  *.dat</p>
+        <p class="aws" data-right>a. ren C:\Users\juan\*.txt  *.dat</p>
         <p class="aws">b. ren C:\Users\juan\*.txt  C:\Users\juan\*.dat</p>
         <p class="aws">c. ren   *.txt   *.dat</p>
         <p class="aws">d. ren   *.txt   C:\Users\juan\*.dat</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Listar todos los archivos cuyo nombre contienen la palabra práctica, en la unidad F.  Se tendrá en cuenta que unas veces estará acentuada y otras no. Los archivos podrán tener cualquier extensión:</p>
-        <p class="aws right">a. dir /S  f:\*pr?ctica*.*</p>
+        <p class="aws" data-right>a. dir /S  f:\*pr?ctica*.*</p>
         <p class="aws">b. dir /S  f:\*pr*ctica*.*</p>
         <p class="aws">c. dir f:\?pr?ctica?.?</p>
         <p class="aws">d. dir f:\?pr*ctica?.?</p>
@@ -203,12 +204,12 @@
         <p class="qtn">Queremos tener Windows 10 y Linux en un equipo, además el Windows 7 por compatibilidad con algunos programas. ¿Cual es el orden de instalación?</p>
         <p class="aws">a. Windows 7, Linux y Windows 10</p>
         <p class="aws">b. Windows 10, Windows 7 y Linux</p>
-        <p class="aws right">c. Windows 7, Windows 10 y Linux</p>
+        <p class="aws" data-right>c. Windows 7, Windows 10 y Linux</p>
         <p class="aws">d. Es indistinto el orden, pues al instalar cada sistema se tiene en cuenta los ya instalados</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Queremos añadir el contenido del archivo texto1.txt en el archivo texto2.txt</p>
-        <p class="aws right">a. type texto1.txt >> texto2.txt</p>
+        <p class="aws" data-right>a. type texto1.txt >> texto2.txt</p>
         <p class="aws">b. type texto1.txt > texto2.txt</p>
         <p class="aws">c. dir texto1.txt >> texto2.txt</p>
         <p class="aws">d. dir texto1.txt > texto2.txt</p>
@@ -218,39 +219,39 @@
         <p class="aws">a. Se crea automáticamente al instalar Windows 10</p>
         <p class="aws">b. Es la partición activa</p>
         <p class="aws">c. Es la partición de sistema</p>
-        <p class="aws right">d. Es la partición de arranque de Windows 10</p>
+        <p class="aws" data-right>d. Es la partición de arranque de Windows 10</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cual de los siguientes, no es un programa para particionar?</p>
         <p class="aws">a. fdisk</p>
         <p class="aws">b. gparted</p>
         <p class="aws">c. diskpart</p>
-        <p class="aws right">d. easybcd</p>
+        <p class="aws" data-right>d. easybcd</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica la falsa sobre el MBR</p>
         <p class="aws">a. El MBR es el primer sector del disco duro y por tanto ocupa 512 bytes</p>
         <p class="aws">b. Contiene el el inicio y fin de cada partición</p>
         <p class="aws">c. Contiene que sistema de ficheros tiene cada partición</p>
-        <p class="aws right">d. Contiene la información de cuántos sistemas operativos hay instalados</p>
+        <p class="aws" data-right>d. Contiene la información de cuántos sistemas operativos hay instalados</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué misión cumple el MBR de un disco duro durante el arranque del ordenador?</p>
         <p class="aws">a. Cargar directamente el sistema operativo que se haya instalado en el disco duro</p>
         <p class="aws">b. Contiene la lista de los dispositivos en los que la BIOS busca sistemas operativos instalados</p>
         <p class="aws">c. Define las características de los discos duros que pueden tener sistemas operativos instalados y listos para el arranque</p>
-        <p class="aws right">d. Localizar su partición activa y dirigirse a su primer sector para hacer que se ejecute el código allí almacenado</p>
+        <p class="aws" data-right>d. Localizar su partición activa y dirigirse a su primer sector para hacer que se ejecute el código allí almacenado</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Cual es falsa sobre permisos NTFS</p>
         <p class="aws">a. Se pueden configurar permisos a carpetas</p>
         <p class="aws">b. Para su administración, se recomienda evitar la denegación de permisos</p>
-        <p class="aws right">c. Para su administración, se recomienda administrar permisos preferiblemente a usuarios que a grupos</p>
+        <p class="aws" data-right>c. Para su administración, se recomienda administrar permisos preferiblemente a usuarios que a grupos</p>
         <p class="aws">d. Se pueden configurar permisos a archivos</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica cual es la falsa sobre las directivas de seguridad local</p>
-        <p class="aws right">a. Incluye todas las directivas de equipo local</p>
+        <p class="aws" data-right>a. Incluye todas las directivas de equipo local</p>
         <p class="aws">b. Si ejecutamos gpedit.msc tenemos acceso a ellas</p>
         <p class="aws">c. Se abre con SecPol.msc</p>
         <p class="aws">d. Se configuran varios aspectos de las contraseñas</p>
@@ -259,33 +260,33 @@
         <p class="qtn">¿Qué es un SID?</p>
         <p class="aws">a. Es un tipo de permiso especial</p>
         <p class="aws">b. Es un grupo de usuarios predefinido por el sistema</p>
-        <p class="aws right">c. Es un número identificador único para cada usuario del sistema</p>
+        <p class="aws" data-right>c. Es un número identificador único para cada usuario del sistema</p>
         <p class="aws">d. Ninguna es cierta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Supongamos el usuario maria que pertenece a 3 grupos: madrid, sevilla, cadiz. En una carpeta, están configurados los permisos siguientes: madrid lectura, sevilla modificar.  Tanto cadiz como maria no aparecen explicitamente en los permisos. ¿Qué permisos tiene maria en esa carpeta?</p>
         <p class="aws">a. Ningún permiso</p>
         <p class="aws">b. Lectura</p>
-        <p class="aws right">c. Modificar</p>
+        <p class="aws" data-right>c. Modificar</p>
         <p class="aws">d. Control total</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es falsa sobre las cuotas de disco?</p>
         <p class="aws">a. Se configuran seleccionando menú contextual en la unidad, Propiedades y solapa Cuota</p>
         <p class="aws">b. Se pueden configurar con gpedit.msc</p>
-        <p class="aws right">c. Se pueden configurar con SecPol.msc</p>
+        <p class="aws" data-right>c. Se pueden configurar con SecPol.msc</p>
         <p class="aws">d. Hay 2 niveles de cuota, una que no se puede sobrepasar, y otra de advertencia</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Supongamos el usuario maria que pertenece a 3 grupos: madrid, sevilla, cuenca. En una carpeta, están configurados los permisos siguientes: madrid modificar, sevilla control total, cuenca denegar, maria lectura. ¿Qué permisos tiene maria en esa carpeta?</p>
-        <p class="aws right">a. Ningún permiso</p>
+        <p class="aws" data-right>a. Ningún permiso</p>
         <p class="aws">b. Lectura</p>
         <p class="aws">c. Modificar</p>
         <p class="aws">d. Control total</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica cual es la falsa sobre el editor de políticas de grupos local</p>
-        <p class="aws right">a. Se encuentra en Administración de equipo</p>
+        <p class="aws" data-right>a. Se encuentra en Administración de equipo</p>
         <p class="aws">b. Se abre con gpedit.msc</p>
         <p class="aws">c. Se puede configurar por Equipo y por Usuario</p>
         <p class="aws">d. Se modifican políticas que se encuentran en el registro</p>
@@ -294,21 +295,21 @@
         <p class="qtn">¿En qué casos, al mover o copiar una carpeta, se conservan los permisos del origen?</p>
         <p class="aws">a. Cuando se copia una carpeta dentro de la misma unidad</p>
         <p class="aws">b. Cuando se copia una carpeta entre unidades distintas</p>
-        <p class="aws right">c. Cuando se mueve una carpeta dentro de la misma unidad</p>
+        <p class="aws" data-right>c. Cuando se mueve una carpeta dentro de la misma unidad</p>
         <p class="aws">d. Cuando se mueve una carpeta entre unidades distintas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">La directiva Umbral de bloqueo de la cuenta hace referencia a:</p>
         <p class="aws">a. El tiempo que puede quedar bloqueada una cuenta</p>
         <p class="aws">b. Número de intentos permitidos para cambiar la contraseña de una cuenta</p>
-        <p class="aws right">c. Número de intentos erróneos permitidos antes de bloquear la cuenta</p>
+        <p class="aws" data-right>c. Número de intentos erróneos permitidos antes de bloquear la cuenta</p>
         <p class="aws">d. Indica cada cuanto tiempo se pone el contador de intentos erróneos a cero</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Las directivas de grupo local se dividen en</p>
         <p class="aws">a. Directivas de configuración de cuentas y de contraseñas</p>
         <p class="aws">b. Directivas de configuración del equipo y del sistema</p>
-        <p class="aws right">c. Directivas de configuración de usuario y del equipo</p>
+        <p class="aws" data-right>c. Directivas de configuración de usuario y del equipo</p>
         <p class="aws">d. Directivas de configuración del equipo y de contraseñas</p>
     </div>
     <div class="wrapper">
@@ -316,20 +317,20 @@
         <p class="aws">a. Los administradores</p>
         <p class="aws">b. El propietario del objeto</p>
         <p class="aws">c. Los usuarios que se les haya habitlitado "Cambiar permisos"</p>
-        <p class="aws right">d. Los usuarios que pertenezcan al grupo "Usuarios avanzados"</p>
+        <p class="aws" data-right>d. Los usuarios que pertenezcan al grupo "Usuarios avanzados"</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué ocurre cuando no hay espacio para almacenar un nuevo punto de restauración?</p>
         <p class="aws">a. Se elimina el punto de restauración más reciente</p>
         <p class="aws">b. No se almacena hasta que el usuario elimine algún punto anterior</p>
-        <p class="aws right">c. Se elimina el punto de restauración más antiguo</p>
+        <p class="aws" data-right>c. Se elimina el punto de restauración más antiguo</p>
         <p class="aws">d. Se comprimen los anteriores puntos de restauración para ganar espacio</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica el directorio donde se encuentran los ficheros de configuración del sistema.</p>
         <p class="aws">a. /root</p>
         <p class="aws">b. /cfg</p>
-        <p class="aws right">c. /etc</p>
+        <p class="aws" data-right>c. /etc</p>
         <p class="aws">d. /dev</p>
     </div>
     <div class="wrapper">
@@ -337,19 +338,19 @@
         <p class="aws">a. yum update-system</p>
         <p class="aws">b. apt-get update-system</p>
         <p class="aws">c. dpkg update</p>
-        <p class="aws right">d. apt-get update</p>
+        <p class="aws" data-right>d. apt-get update</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando muestra en pantalla el contenido del archivo fichero.txt ?</p>
         <p class="aws">a. cat Fichero.txt</p>
         <p class="aws">b. ls fichero.txt</p>
-        <p class="aws right">c. less fichero.txt</p>
+        <p class="aws" data-right>c. less fichero.txt</p>
         <p class="aws">d.  echo Fichero.txt</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando se ejecuta para instalar gparted?</p>
         <p class="aws">a. apt install gparted (En Red Hat)</p>
-        <p class="aws right">b. aptitude install gparted (En Debian)</p>
+        <p class="aws" data-right>b. aptitude install gparted (En Debian)</p>
         <p class="aws">c. yum install gparted (En Debian)</p>
         <p class="aws">d. Ninguna es correcta</p>
     </div>
@@ -357,13 +358,13 @@
         <p class="qtn">¿Qué comando no deja ver el contenido de un directorio?</p>
         <p class="aws">a. ls -la</p>
         <p class="aws">b. ls</p>
-        <p class="aws right">c. pwd</p>
+        <p class="aws" data-right>c. pwd</p>
         <p class="aws">d. tree</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es el $HOME del usuario juan?</p>
         <p class="aws">a. /HOME</p>
-        <p class="aws right">b. /home/juan</p>
+        <p class="aws" data-right>b. /home/juan</p>
         <p class="aws">c. /HOME/juan</p>
         <p class="aws">d. /home</p>
     </div>
@@ -371,7 +372,7 @@
         <p class="qtn">¿Cual no es una distribución basada en Debian?</p>
         <p class="aws">a. Ubuntu</p>
         <p class="aws">b. Zentyal</p>
-        <p class="aws right">c. CentOs</p>
+        <p class="aws" data-right>c. CentOs</p>
         <p class="aws">d. MAX</p>
     </div>
     <div class="wrapper">
@@ -379,13 +380,13 @@
         <p class="aws">a. su &lt;comando&gt;</p>
         <p class="aws">b. sudo &lt;comando&gt;</p>
         <p class="aws">c. sudo su</p>
-        <p class="aws right">d. su root</p>
+        <p class="aws" data-right>d. su root</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Dónde se encuentran los archivos de arranque del sistema operativo Linux?</p>
         <p class="aws">a. /bin</p>
         <p class="aws">b. /init</p>
-        <p class="aws right">c. /boot</p>
+        <p class="aws" data-right>c. /boot</p>
         <p class="aws">d. /root</p>
     </div>
     <div class="wrapper">
@@ -393,32 +394,32 @@
         <p class="aws">a. Debian, Fedora, RedHat</p>
         <p class="aws">b. Ubuntu, Debian, CentOS</p>
         <p class="aws">c. FreeBSD , Debian, CentOS</p>
-        <p class="aws right">d. Debian, Slackware, RedHat</p>
+        <p class="aws" data-right>d. Debian, Slackware, RedHat</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál de los siguientes no es un entorno gráfico?</p>
         <p class="aws">a. Gnome</p>
         <p class="aws">b. KDE</p>
-        <p class="aws right">c. gstart</p>
+        <p class="aws" data-right>c. gstart</p>
         <p class="aws">d. Xfce</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cual no es un instalador de paquetes debian?</p>
         <p class="aws">a. apt</p>
         <p class="aws">b. aptitude</p>
-        <p class="aws right">c. yum</p>
+        <p class="aws" data-right>c. yum</p>
         <p class="aws">d. dpkg</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si en el prompt del shell aparece el carácter $ significa que:</p>
         <p class="aws">a. Somos el usuario root</p>
-        <p class="aws right">b. Somos un usuario no root</p>
+        <p class="aws" data-right>b. Somos un usuario no root</p>
         <p class="aws">c. Estamos en nuestro $HOME</p>
         <p class="aws">d. Tenemos permisos para ejecutar sudo</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Linux no se puede instalar en un sistema de archivos...</p>
-        <p class="aws right">a. NTFS</p>
+        <p class="aws" data-right>a. NTFS</p>
         <p class="aws">b. EXT3</p>
         <p class="aws">c. EXT4</p>
         <p class="aws">d. Todas son verdaderas, pues se puede instalar en todos los sistemas de archivos</p>
@@ -427,7 +428,7 @@
         <p class="qtn">En un equipo llamado servidor con ubuntu instalado, ¿Cuál es un shell válido del usuario root?</p>
         <p class="aws">a. usuario@ubuntu:~$</p>
         <p class="aws">b. root@servidor:~$</p>
-        <p class="aws right">c. root@servidor:/home/juan#</p>
+        <p class="aws" data-right>c. root@servidor:/home/juan#</p>
         <p class="aws">d. root@ubuntu:~#</p>
     </div>
     <div class="wrapper">
@@ -435,25 +436,25 @@
         <p class="aws">a. vi</p>
         <p class="aws">b. nano</p>
         <p class="aws">c. emacs</p>
-        <p class="aws right">d. gedit</p>
+        <p class="aws" data-right>d. gedit</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿En qué directorio se montan los distintos dispositivos?</p>
         <p class="aws">a. /mnt</p>
         <p class="aws">b. /mount</p>
         <p class="aws">c. /media</p>
-        <p class="aws right">d. Tanto en /mnt como en /media</p>
+        <p class="aws" data-right>d. Tanto en /mnt como en /media</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando no está relacionado con procesos?</p>
-        <p class="aws right">a. process</p>
+        <p class="aws" data-right>a. process</p>
         <p class="aws">b. ps -ef</p>
         <p class="aws">c. top</p>
         <p class="aws">d. renice</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Para ejecutar un script es necesario...</p>
-        <p class="aws right">a. Poner el permiso de ejecución al script</p>
+        <p class="aws" data-right>a. Poner el permiso de ejecución al script</p>
         <p class="aws">b. Poner la extension .sh al nombre</p>
         <p class="aws">c. Al ejecutarlo utilizar ruta absoluta</p>
         <p class="aws">d. Todas son correctas</p>
@@ -463,18 +464,18 @@
         <p class="aws">a. df -h /root</p>
         <p class="aws">b. df -h /home/root</p>
         <p class="aws">c. du -sh /home/root</p>
-        <p class="aws right">d. du -sh /root</p>
+        <p class="aws" data-right>d. du -sh /root</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué permiso es necesario para poder copiar un archivo dentro de la misma carpeta?</p>
-        <p class="aws right">a. Permiso de lectura en archivo y permiso de escritura en carpeta</p>
+        <p class="aws" data-right>a. Permiso de lectura en archivo y permiso de escritura en carpeta</p>
         <p class="aws">b. Permiso de escritura en archivo y permiso de lectura en carpeta</p>
         <p class="aws">c. Permiso de escritura en archivo y permiso de escritura en carpeta</p>
         <p class="aws">d. Permiso de lectura en archivo y permiso de lectura en carpeta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si solo queremos mostrar las particiones del tercer disco, ejecutamos:</p>
-        <p class="aws right">a. fdisk -l /dev/sdc</p>
+        <p class="aws" data-right>a. fdisk -l /dev/sdc</p>
         <p class="aws">b. fdisk /dev/sdc</p>
         <p class="aws">c. fdisk -l /dev/sd3</p>
         <p class="aws">d. fdisk /dev/sd3</p>
@@ -487,13 +488,13 @@
             -r w - r w - r w -     1   juan    sevilla        1550    nov 13  2017   fichero<br>
             ¿Qué usuarios pueden cambiar permisos a fichero?</p>
         <p class="aws">a. Solo el usuario root</p>
-        <p class="aws right">b. Solo root y juan</p>
+        <p class="aws" data-right>b. Solo root y juan</p>
         <p class="aws">c. Los 5 usuarios, porque todos tienen escritura</p>
         <p class="aws">d. Los usuarios root, juan y juana</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En nuestro PC, tenemos 2 discos duros y una disquetera. Queremos montar un disquete, ¿qué opción es correcta?</p>
-        <p class="aws right">a. mount /dev/fd0  /mnt/disquete</p>
+        <p class="aws" data-right>a. mount /dev/fd0  /mnt/disquete</p>
         <p class="aws">b. mount /dev/sr0  /mnt/disquete</p>
         <p class="aws">c. mount /dev/sdb  /mnt/disquete</p>
         <p class="aws">d. mount /dev/sdc  /mnt/disquete</p>
@@ -501,27 +502,27 @@
     <div class="wrapper">
         <p class="qtn">¿Para eliminar un proceso en ejecución qué comando no se puede utilizar?</p>
         <p class="aws">a. kill -9 PID</p>
-        <p class="aws right">b. kill -9 &lt;Nombre del proceso&gt;</p>
+        <p class="aws" data-right>b. kill -9 &lt;Nombre del proceso&gt;</p>
         <p class="aws">c. kill -15 PID</p>
         <p class="aws">d. kill PID</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando permite formatear la primera partición lógica del segundo disco duro?</p>
         <p class="aws">a. mkfs /dev/sde2</p>
-        <p class="aws right">b. mkfs /dev/sdb5</p>
+        <p class="aws" data-right>b. mkfs /dev/sdb5</p>
         <p class="aws">c. fdisk /dev/sde2</p>
         <p class="aws">d. fdisk /dev/sdb5</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En la actualidad, ¿en qué fichero se almacena las contraseñas cifradas de los usuarios GNU/Linux?</p>
         <p class="aws">a. /etc/passwd</p>
-        <p class="aws right">b. /etc/shadow</p>
+        <p class="aws" data-right>b. /etc/shadow</p>
         <p class="aws">c. /etc/group</p>
         <p class="aws">d. /etc/fstab</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cómo se monta la segunda partición primaria del tercer disco, con formato fat 16?</p>
-        <p class="aws right">a. mount -t msdos /dev/sdc2  /mnt/datos</p>
+        <p class="aws" data-right>a. mount -t msdos /dev/sdc2  /mnt/datos</p>
         <p class="aws">b. mount -t fat16 /dev/sdc2  /mnt/datos</p>
         <p class="aws">c. mount -t fat16 /dev/sdb3  /mnt/datos</p>
         <p class="aws">d. mount -t msdos /dev/sdb3  /mnt/datos</p>
@@ -533,26 +534,26 @@
             ¿Cual es cierta?</p>
         <p class="aws">a. Script.sh se ejecuta a las 8, 9 y 10 en punto todos los días en meses alternos</p>
         <p class="aws">b. Script.sh se ejecuta a las 8 , 9 y 10 en punto todos los domingos en semanas alternas</p>
-        <p class="aws right">c. Script.sh se ejecuta a las 8 y 10 en punto todos los domingos en meses alterno</p>
+        <p class="aws" data-right>c. Script.sh se ejecuta a las 8 y 10 en punto todos los domingos en meses alterno</p>
         <p class="aws">d. Script.sh se ejecuta a las 8 y 10 en punto todos los días en semanas alternas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Queremos cambiar la prioridad de un proceso que está corriendo en nuestro sistema. Indica la correcta.</p>
-        <p class="aws right">a. Se utiliza renice con el PID</p>
+        <p class="aws" data-right>a. Se utiliza renice con el PID</p>
         <p class="aws">b. Se utiliza nice con el PID</p>
         <p class="aws">c. Se utiliza renice con el nombre del proceso</p>
         <p class="aws">d. Se utiliza nice con el nombre del proceso</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué permisos se obtienen al ejecutar el comando chmod 421 prueba.txt?</p>
-        <p class="aws right">a. r - - - w - - - x</p>
+        <p class="aws" data-right>a. r - - - w - - - x</p>
         <p class="aws">b. - - x - w - r - -</p>
         <p class="aws">c. r w x r w - r - -</p>
         <p class="aws">d. r w - r - - - - -</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando podrías utilizar para montar un CD?</p>
-        <p class="aws right">a. mount /dev/sr0  /mnt/carpeta</p>
+        <p class="aws" data-right>a. mount /dev/sr0  /mnt/carpeta</p>
         <p class="aws">b. mnt /dev/sr0  /media/carpeta</p>
         <p class="aws">c. mount /mnt/disco  /media/sda</p>
         <p class="aws">d. mount /dev/sda   /mnt/CD</p>
@@ -564,13 +565,13 @@
             addgroup valencia</p>
         <p class="aws">c. addgroup valencia<br>
             adduser paco valencia</p>
-        <p class="aws right">d. addgroup valencia<br>
+        <p class="aws" data-right>d. addgroup valencia<br>
             adduser paco --ingroup valencia</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué ocurre si un usuario tiene el identificador de grupo (GID) y usuario (UID) a cero? Ejemplo 0:0</p>
         <p class="aws">a. Es imposible que esté a cero el UID</p>
-        <p class="aws right">b. Que es el usuario root</p>
+        <p class="aws" data-right>b. Que es el usuario root</p>
         <p class="aws">c. Que es el primer usuario del grupo llamado '0'</p>
         <p class="aws">d. Es imposible que esté a cero el GID</p>
     </div>
@@ -579,19 +580,19 @@
             - r w - r - - r - -    1   juan    sevilla        1550    nov 13  2017   fichero.txt</p>
         <p class="aws">a. chown juan:luis fichero.txt</p>
         <p class="aws">b. chown luis:juan fichero.txt</p>
-        <p class="aws right">c. chown luis  fichero.txt</p>
+        <p class="aws" data-right>c. chown luis  fichero.txt</p>
         <p class="aws">d. chgrp juan:luis  fichero.txt</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es la prioridad mínima de un proceso en Linux?</p>
         <p class="aws">a. 20</p>
-        <p class="aws right">b. 19</p>
+        <p class="aws" data-right>b. 19</p>
         <p class="aws">c. -19</p>
         <p class="aws">d. -20</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si solo queremos mostrar las particiones del tercer disco, ejecutamos:</p>
-        <p class="aws right">a. fdisk -l /dev/sdc</p>
+        <p class="aws" data-right>a. fdisk -l /dev/sdc</p>
         <p class="aws">b. fdisk /dev/sdc</p>
         <p class="aws">c. fdisk -l /dev/sd3</p>
         <p class="aws">d. fdisk /dev/sd3</p>
@@ -599,20 +600,20 @@
     <div class="wrapper">
         <p class="qtn">¿Qué ocurre si un usuario tiene el identificador de grupo (GID) y usuario (UID) a cero? Ejemplo 0:0</p>
         <p class="aws">a. Es imposible que esté a cero el UID</p>
-        <p class="aws right">b. Que es el usuario root</p>
+        <p class="aws" data-right>b. Que es el usuario root</p>
         <p class="aws">c. Que es el primer usuario del grupo llamado '0'</p>
         <p class="aws">d. Es imposible que esté a cero el GID</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando podrías utilizar para montar un CD?</p>
-        <p class="aws right">a. mount /dev/sr0  /mnt/carpeta</p>
+        <p class="aws" data-right>a. mount /dev/sr0  /mnt/carpeta</p>
         <p class="aws">b. mnt /dev/sr0  /media/carpeta</p>
         <p class="aws">c. mount /mnt/disco  /media/sda</p>
         <p class="aws">d. mount /dev/sda   /mnt/CD</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Queremos que juan  (usuario ya existente en el sistema) pueda ejecutar sudo. ¿Cuál opción no es correcta?</p>
-        <p class="aws right">a. Ejecutar:  adduser juan --ingroup sudo</p>
+        <p class="aws" data-right>a. Ejecutar:  adduser juan --ingroup sudo</p>
         <p class="aws">b. Introducir a juan dentro del grupo sudo</p>
         <p class="aws">c. Ejecutar adduser juan sudo</p>
         <p class="aws">d. En fichero de grupos, añadir "juan" de la forma siguiente:
@@ -620,14 +621,14 @@
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué permiso es necesario para poder copiar un archivo dentro de la misma carpeta?</p>
-        <p class="aws right">a. Permiso de lectura en archivo y permiso de escritura en carpeta</p>
+        <p class="aws" data-right>a. Permiso de lectura en archivo y permiso de escritura en carpeta</p>
         <p class="aws">b. Permiso de escritura en archivo y permiso de lectura en carpeta</p>
         <p class="aws">c. Permiso de escritura en archivo y permiso de escritura en carpeta</p>
         <p class="aws">d. Permiso de lectura en archivo y permiso de lectura en carpeta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Para ejecutar un script es necesario...</p>
-        <p class="aws right">a. Poner el permiso de ejecución al script</p>
+        <p class="aws" data-right>a. Poner el permiso de ejecución al script</p>
         <p class="aws">b. Poner la extension .sh al nombre</p>
         <p class="aws">c. Al ejecutarlo utilizar ruta absoluta</p>
         <p class="aws">d. Todas son correctas</p>
@@ -636,12 +637,12 @@
         <p class="qtn">¿Con 4 discos de 2 TB en que caso se consigue un disco de 6 TB?</p>
         <p class="aws">a. RAID 0</p>
         <p class="aws">b. RAID 1</p>
-        <p class="aws right">c. RAID 5</p>
+        <p class="aws" data-right>c. RAID 5</p>
         <p class="aws">d. RAID 10</p>
     </div>
     <div class="wrapper">
         <p class="qtn">El comando 'dd' no permite ...</p>
-        <p class="aws right">a. Realizar copias incrementales</p>
+        <p class="aws" data-right>a. Realizar copias incrementales</p>
         <p class="aws">b. Clonar un disco con Windows</p>
         <p class="aws">c. Clonar un disco con Linux</p>
         <p class="aws">d. Crear una imagen de una partición</p>
@@ -649,27 +650,27 @@
     <div class="wrapper">
         <p class="qtn">Sobre los archivos '.tar', 'gz' y '.tar.gz', cual es cierta</p>
         <p class="aws">a. Existen archivos tar.gz y .gz pero no existen archivos .tar</p>
-        <p class="aws right">b. Los archivos .tar son empaquetados, los .gz comprimidos y los .tar.gz ambas</p>
+        <p class="aws" data-right>b. Los archivos .tar son empaquetados, los .gz comprimidos y los .tar.gz ambas</p>
         <p class="aws">c. Los archivos .tar son comprimidos, los .gz empaquetados y los .tar.gz ambas</p>
         <p class="aws">d. Existen archivos tar.gz y .tar pero no existen archivos .gz</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si queremos cifrar un pendrive y utilizarlo en distintas maquinas Windows y Linux, ¿qué herramienta hay que utilizar?</p>
-        <p class="aws right">a. VeraCrypt</p>
+        <p class="aws" data-right>a. VeraCrypt</p>
         <p class="aws">b. EFS</p>
         <p class="aws">c. BitLocker</p>
         <p class="aws">d. dd</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Sobre BitLocker, ¿qué afirmación es falsa?</p>
-        <p class="aws right">a. Se puede cifrar carpetas y archivos</p>
+        <p class="aws" data-right>a. Se puede cifrar carpetas y archivos</p>
         <p class="aws">b. Está orientado al módulo hardware TPM</p>
         <p class="aws">c. Se puede utilizar un pendrive para guardar la clave de cifrado</p>
         <p class="aws">d. Se pueden cifrar unidades lógicas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿De qué RAID no se puede recuperar la información si se estropea un disco?</p>
-        <p class="aws right">a. RAID 0</p>
+        <p class="aws" data-right>a. RAID 0</p>
         <p class="aws">b. RAID 1</p>
         <p class="aws">c. RAID 5</p>
         <p class="aws">d. En todos los RAID se puede recuperar la información</p>
@@ -679,7 +680,7 @@
         <p class="aws">a. El disco se puede particionar tanto MBR como GPT</p>
         <p class="aws">b. El disco puede ser básico o dinámico</p>
         <p class="aws">c. Equivale a RAID 0</p>
-        <p class="aws right">d. Equivale a RAID 1</p>
+        <p class="aws" data-right>d. Equivale a RAID 1</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Supongamos un RAID de 4 discos, donde el cuarto disco es un disco de paridad par. Se ha escrito un byte en cada disco, en los 3 primeros discos concretamente:<br>
@@ -687,21 +688,21 @@
             0 1 1 0 1 0 0 1<br>
             1 0 1 0 1 0 0 1<br>
             ¿Qué byte se escribe en el cuarto disco?</p>
-        <p class="aws right">a. 0 1 1 1 0 1 0 1</p>
+        <p class="aws" data-right>a. 0 1 1 1 0 1 0 1</p>
         <p class="aws">b. 1 0 0 0 1 0 1 0</p>
         <p class="aws">c. 1 0 1 1 1 0 0 0</p>
         <p class="aws">d. 0 1 0 0 0 1 1 1</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué afirmación es falsa en Windows 10 Profesional?</p>
-        <p class="aws right">a. Se puede crear un volumen RAID 5</p>
+        <p class="aws" data-right>a. Se puede crear un volumen RAID 5</p>
         <p class="aws">b. Se puede utilizar EFS</p>
         <p class="aws">c. Se puede utilizar BitLocker</p>
         <p class="aws">d. Se puede crear un volumen distribuido</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál programa incorpora Windows para cifrar carpetas o archivos?</p>
-        <p class="aws right">a. EFS</p>
+        <p class="aws" data-right>a. EFS</p>
         <p class="aws">b. BitLocker</p>
         <p class="aws">c. NTFS</p>
         <p class="aws">d. VeraCrypt</p>
@@ -709,27 +710,27 @@
     <div class="wrapper">
         <p class="qtn">¿Cuál de las siguientes utilidades no permite clonar discos duros?</p>
         <p class="aws">a. dd</p>
-        <p class="aws right">b. tar</p>
+        <p class="aws" data-right>b. tar</p>
         <p class="aws">c. Ghost</p>
         <p class="aws">d. Clonezilla</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si queremos tener una instalación del sistema operativo Windows guardada en una unidad flash, por si se corrompe en un futuro, la mejor opción es:</p>
-        <p class="aws right">a. Crear una imagen del sistema</p>
+        <p class="aws" data-right>a. Crear una imagen del sistema</p>
         <p class="aws">b. Clonar el sistema</p>
         <p class="aws">c. Copiar C con comando</p>
         <p class="aws">d. Ninguna respuesta es correcta</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué RAID, con posibilidad de recuperar datos es más barato económicamente, en proporción al tamaño final resultante?</p>
-        <p class="aws right">a. RAID 5</p>
+        <p class="aws" data-right>a. RAID 5</p>
         <p class="aws">b. RAID 0</p>
         <p class="aws">c. RAID 1</p>
         <p class="aws">d. RAID 10</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál respuesta no es correcta para realizar una copia idéntica de una carpeta en GNU-Linux?</p>
-        <p class="aws right">a. Utilizar nautilus como root</p>
+        <p class="aws" data-right>a. Utilizar nautilus como root</p>
         <p class="aws">b. Utilizar cp -p</p>
         <p class="aws">c. Utilizar el programa tar</p>
         <p class="aws">d. Todas son falsas</p>
@@ -739,13 +740,13 @@
         <p class="aws">a. Se pueden cifrar particiones o unidades lógicas</p>
         <p class="aws">b. Se puede crear un fichero contenedor cifrado</p>
         <p class="aws">c. Se puede utilizar tanto en Windows como en Linux</p>
-        <p class="aws right">d. Todas son correctas</p>
+        <p class="aws" data-right>d. Todas son correctas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿En que nivel de TCP/IP se controlan los errores de los paquetes?</p>
         <p class="aws">a. Acceso a la red o subred</p>
         <p class="aws">b. Internet o red</p>
-        <p class="aws right">c. Transporte</p>
+        <p class="aws" data-right>c. Transporte</p>
         <p class="aws">d. Aplicación</p>
     </div>
     <div class="wrapper">
@@ -753,13 +754,13 @@
         <p class="aws">a. Una dirección IP consta de 32 bits</p>
         <p class="aws">b. Una dirección IP identifica un nodo (host o router ) de una red</p>
         <p class="aws">c. Un router tiene varias direcciones IP</p>
-        <p class="aws right">d. Se puede repetir una IP pública</p>
+        <p class="aws" data-right>d. Se puede repetir una IP pública</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué afirmación es falsa sobre los modos de conexión de una red inalámbrica?</p>
         <p class="aws">a. Se utilizan los modos ad-hoc e infraestructura</p>
         <p class="aws">b. El modo infraestructura  utiliza un punto de acceso</p>
-        <p class="aws right">c. El modo ad-hoc tiene mayor seguridad</p>
+        <p class="aws" data-right>c. El modo ad-hoc tiene mayor seguridad</p>
         <p class="aws">d. El modo infraestructura alcanza mayores velocidades</p>
     </div>
     <div class="wrapper">
@@ -767,19 +768,19 @@
         <p class="aws">a. 10.0.0.0/8</p>
         <p class="aws">b. 172.25.0.0 /16</p>
         <p class="aws">c. 192.168.5.0 /24</p>
-        <p class="aws right">d. 172.36.0.0 /16</p>
+        <p class="aws" data-right>d. 172.36.0.0 /16</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál de los protocolos siguientes no trabaja en el nivel de red?</p>
         <p class="aws">a. Protocolo IP</p>
         <p class="aws">b. Protocolo ICMP</p>
         <p class="aws">c. Protocolo ARP</p>
-        <p class="aws right">d. Protocolo FTP</p>
+        <p class="aws" data-right>d. Protocolo FTP</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Ethernet es la base para el estándar:</p>
         <p class="aws">a. IEEE 802.2</p>
-        <p class="aws right">b. IEEE 802.3</p>
+        <p class="aws" data-right>b. IEEE 802.3</p>
         <p class="aws">c. IEEE 802.4</p>
         <p class="aws">d. IEEE 802.5</p>
     </div>
@@ -788,19 +789,19 @@
         <p class="aws">a. El 20</p>
         <p class="aws">b. El 21</p>
         <p class="aws">c. El 53</p>
-        <p class="aws right">d. El 80</p>
+        <p class="aws" data-right>d. El 80</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En una dirección  IP de clase A el identificador de equipo tiene ... bits y el identificador de red tiene ... bits</p>
         <p class="aws">a. 8 y 24</p>
         <p class="aws">b. 16 y 16</p>
-        <p class="aws right">c. 24 y 8</p>
+        <p class="aws" data-right>c. 24 y 8</p>
         <p class="aws">d. 2 y 20</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué afirmación es falsa sobre los protocolos ARP y RARP?</p>
         <p class="aws">a. Son los encargados de relacionar las direcciones físicas y lógicas</p>
-        <p class="aws right">b. Trabajan en el nivel 3 y 4 de OSI</p>
+        <p class="aws" data-right>b. Trabajan en el nivel 3 y 4 de OSI</p>
         <p class="aws">c. Trabajan en el nivel 1 y 2 de TCP/IP</p>
         <p class="aws">d. Son los encargados de relacionar las direcciones MAC y direcciones IP</p>
     </div>
@@ -808,19 +809,19 @@
         <p class="qtn">¿Qué medio de transmisión usa conectores FDDI?</p>
         <p class="aws">a. Par trenzado</p>
         <p class="aws">b. Cable coaxial</p>
-        <p class="aws right">c. Fibra óptica</p>
+        <p class="aws" data-right>c. Fibra óptica</p>
         <p class="aws">d. Medio inalámbrico</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué topología no es tolerante a fallos?</p>
-        <p class="aws right">a. Bus</p>
+        <p class="aws" data-right>a. Bus</p>
         <p class="aws">b. Anillo</p>
         <p class="aws">c. Estrella</p>
         <p class="aws">d. Todas las topologías son tolerantes a fallos</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuántos equipos puede tener la red con dirección 200.200.200.0 con máscara 255.255.255.128?</p>
-        <p class="aws right">a. 126</p>
+        <p class="aws" data-right>a. 126</p>
         <p class="aws">b. 128</p>
         <p class="aws">c. 62</p>
         <p class="aws">d. 64</p>
@@ -828,7 +829,7 @@
     <div class="wrapper">
         <p class="qtn">La dirección de red se utiliza para...</p>
         <p class="aws">a. ... identificar la red y, el netid vale 1 y el hostid 0</p>
-        <p class="aws right">b. .. identificar la red y el hostid vale 0</p>
+        <p class="aws" data-right>b. .. identificar la red y el hostid vale 0</p>
         <p class="aws">c. ... identificar la red y el hostid vale 1</p>
         <p class="aws">d. Ninguna de las anteriores</p>
     </div>
@@ -837,19 +838,19 @@
         <p class="aws">a. IEEE 802.11a</p>
         <p class="aws">b. IEEE 802.11b</p>
         <p class="aws">c. IEEE 802.11g</p>
-        <p class="aws right">d. IEEE 802.11n</p>
+        <p class="aws" data-right>d. IEEE 802.11n</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica la dirección IP que puedes utilizar en un equipo:</p>
         <p class="aws">a. 0.0.0.0/0</p>
         <p class="aws">b. 127.0.0.1/8</p>
         <p class="aws">c. 192.168.1.0/24</p>
-        <p class="aws right">d. 10.10.1.9/24</p>
+        <p class="aws" data-right>d. 10.10.1.9/24</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es el broadcast de la subred 200.200.200.000/25?</p>
         <p class="aws">a. 255.255.255.128</p>
-        <p class="aws right">b. 200.200.200.127</p>
+        <p class="aws" data-right>b. 200.200.200.127</p>
         <p class="aws">c. 200.200.200.128</p>
         <p class="aws">d. 255.255.255.127</p>
     </div>
@@ -858,18 +859,18 @@
         <p class="aws">a. Los switch trabajan en nivel 2 del modelo OSI</p>
         <p class="aws">b. Los switch unen segmentos de red</p>
         <p class="aws">c. Los switch trabajan en el nivel de acceso a la red del modelo OSI</p>
-        <p class="aws right">d. Los switch unen redes distintas</p>
+        <p class="aws" data-right>d. Los switch unen redes distintas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">La que se utiliza para aislar una red de posibles ataques se llama:</p>
         <p class="aws">a. Zona segura</p>
-        <p class="aws right">b. Zona neutra</p>
+        <p class="aws" data-right>b. Zona neutra</p>
         <p class="aws">c. Zona interna</p>
         <p class="aws">d. Zona real</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es la máscara de red de la subred 200.200.200.000/25?</p>
-        <p class="aws right">a. 255.255.255.128</p>
+        <p class="aws" data-right>a. 255.255.255.128</p>
         <p class="aws">b. 200.200.200.127</p>
         <p class="aws">c. 200.200.200.128</p>
         <p class="aws">d. 255.255.255.127</p>
@@ -878,19 +879,19 @@
         <p class="qtn">¿Es posible crear varias redes internas con un sólo router?</p>
         <p class="aws">a. Si, siempre</p>
         <p class="aws">b. Si con routers de los operadores telefónicos, pero no utilizando routers profesionales</p>
-        <p class="aws right">c. Si con routers profesionales, pero no utilizando routers de los operadores telefónicos</p>
+        <p class="aws" data-right>c. Si con routers profesionales, pero no utilizando routers de los operadores telefónicos</p>
         <p class="aws">d. No</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuántos equipos puede tener la red: 192.168.0.0/26?</p>
         <p class="aws">a. 61</p>
-        <p class="aws right">b. 62</p>
+        <p class="aws" data-right>b. 62</p>
         <p class="aws">c. 63</p>
         <p class="aws">d. 64</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Puede tener un servidor en Internet la dirección 192.168.0.1:?</p>
-        <p class="aws right">a. No, porque es una dirección privada</p>
+        <p class="aws" data-right>a. No, porque es una dirección privada</p>
         <p class="aws">b. Si, porque es una dirección púbica</p>
         <p class="aws">c. No porque es una subred</p>
         <p class="aws">d. Depende de la máscara</p>
@@ -900,12 +901,12 @@
         <p class="aws">a. 127.255.255.255 a 192.0.0.0</p>
         <p class="aws">b. 128.0.0.0 a 192.0.0.0</p>
         <p class="aws">c. 128.0.0.0 a 192.255.255.255</p>
-        <p class="aws right">d. 128.0.0.0 a 191.255.255.255</p>
+        <p class="aws" data-right>d. 128.0.0.0 a 191.255.255.255</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica la dirección que sea una red o subred de clase B:</p>
         <p class="aws">a. 25.4.7.8 /8</p>
-        <p class="aws right">b. 130.45.7.8 /24</p>
+        <p class="aws" data-right>b. 130.45.7.8 /24</p>
         <p class="aws">c. 196.74.58.8 /24</p>
         <p class="aws">d. 214.16.74.0 /16</p>
     </div>
@@ -914,40 +915,40 @@
         <p class="aws">a. Nmap</p>
         <p class="aws">b. Wireshark</p>
         <p class="aws">c. Nagios</p>
-        <p class="aws right">d. Apache</p>
+        <p class="aws" data-right>d. Apache</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si queremos crear nuestro usuario en un solo equipo, e iniciar sesión en cualquier equipo de la red, necesitamos que nuestra red esté configurada en:</p>
         <p class="aws">a. Grupo en hogar</p>
-        <p class="aws right">b. Dominio</p>
+        <p class="aws" data-right>b. Dominio</p>
         <p class="aws">c. Grupo de trabajo</p>
         <p class="aws">d. Todas son correctas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál recomendación se suele dar para administrar Compartir recursos y Seguridad NTFS?</p>
         <p class="aws">a. Administrar los permisos del recurso compartido con todas sus opciones, y en seguridad, permitir al grupo Todos con control total</p>
-        <p class="aws right">b. Administrar de forma cuidadosa los permisos locales en Seguridad, y al compartir permitir al grupo Todos con control total</p>
+        <p class="aws" data-right>b. Administrar de forma cuidadosa los permisos locales en Seguridad, y al compartir permitir al grupo Todos con control total</p>
         <p class="aws">c. Administrar de forma correcta cuidadosa tanto al compartir como la seguridad NTFS, pues cuando accedemos desde otro equipo de la red, solo importan los permisos de Compartir</p>
         <p class="aws">d. No hay recomendaciones, pues es fácil la administración de ambas y no interactúan</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Un usuario en una carpeta en la solapa Compartir tiene permitido cambio, y en la solapa Seguridad solo lectura. ¿Cual es cierta?</p>
         <p class="aws">a. Cuando se accede desde otro equipo de la red se tiene cambio y desde el propio equipo solo lectura</p>
-        <p class="aws right">b. Cuando se accede desde otro equipo de la red se tiene solo lectura y desde el propio equipo solo lectura</p>
+        <p class="aws" data-right>b. Cuando se accede desde otro equipo de la red se tiene solo lectura y desde el propio equipo solo lectura</p>
         <p class="aws">c. Cuando se accede desde otro equipo de la red se tiene cambio y desde el propio equipo cambio</p>
         <p class="aws">d. Cuando se accede desde otro equipo de la red se tiene solo lectura y desde el propio equipo cambio</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es el rango de los puertos conocidos o reservados?</p>
         <p class="aws">a. 49152 al 65535</p>
-        <p class="aws right">b. 0 al 1023</p>
+        <p class="aws" data-right>b. 0 al 1023</p>
         <p class="aws">c. 1024 al 49151</p>
         <p class="aws">d. Ninguna de las anteriores</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál de los siguientes no es un protocolo de correo electrónico?</p>
         <p class="aws">a. POP</p>
-        <p class="aws right">b. ICMP</p>
+        <p class="aws" data-right>b. ICMP</p>
         <p class="aws">c. SMTP</p>
         <p class="aws">d. IMAP</p>
     </div>
@@ -957,19 +958,19 @@
         <p class="aws">a. Ningún permiso</p>
         <p class="aws">b. Lectura</p>
         <p class="aws">c. Cambio</p>
-        <p class="aws right">d. Control total</p>
+        <p class="aws" data-right>d. Control total</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Si queremos saber todos las direcciones IP intermedias que pasa un paquete de origen a destino, utilizamos...</p>
         <p class="aws">a. ping</p>
-        <p class="aws right">b. tracert</p>
+        <p class="aws" data-right>b. tracert</p>
         <p class="aws">c. netstat</p>
         <p class="aws">d. route</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En un equipo llamado pc1 tenemos una carpeta compartida al usuario juan.  ¿Cuál es su ruta UNC?</p>
         <p class="aws">a. \\pc1\nombre_carpeta</p>
-        <p class="aws right">b. \\pc1\nombre_recurso</p>
+        <p class="aws" data-right>b. \\pc1\nombre_recurso</p>
         <p class="aws">c. \\juan\nombre_recurso</p>
         <p class="aws">d. \\juan\nombre_carpeta</p>
     </div>
@@ -978,26 +979,26 @@
         <p class="aws">a. poner un símbolo de $ al principio del nombre de la carpeta</p>
         <p class="aws">b. poner un símbolo de $ al final del nombre de la carpeta</p>
         <p class="aws">c. poner un símbolo de $ al principio del nombre del recurso</p>
-        <p class="aws right">d. poner un símbolo de $ al final del nombre del recurso</p>
+        <p class="aws" data-right>d. poner un símbolo de $ al final del nombre del recurso</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿A qué puerto está asociado el servicio de FTP?</p>
         <p class="aws">a. Al 25</p>
         <p class="aws">b. Al 21 (datos) y 20 (control)</p>
         <p class="aws">c. Al 23</p>
-        <p class="aws right">d. Al 21 (control) y 20 (datos)</p>
+        <p class="aws" data-right>d. Al 21 (control) y 20 (datos)</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es falsa al compartir?</p>
         <p class="aws">a. Se pueden compartir carpetas</p>
-        <p class="aws right">b. Se pueden compartir archivos</p>
+        <p class="aws" data-right>b. Se pueden compartir archivos</p>
         <p class="aws">c. Se pueden compartir impresoras</p>
         <p class="aws">d. Si se mueve una carpeta compartida, se deja de compartir</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Supongamos el usuario maria que pertenece a 3 grupos: madrid, sevilla, cuenca. En una carpeta compartida, están configurados los permisos siguientes:    maria lectura,    madrid cambio,    sevilla control total,    cuenca lectura denegada, 
             <br>¿Qué permisos tiene maria en esa carpeta?</p>
-        <p class="aws right">a. Ningún permiso</p>
+        <p class="aws" data-right>a. Ningún permiso</p>
         <p class="aws">b. Lectura</p>
         <p class="aws">c. Cambio</p>
         <p class="aws">d. Control total</p>
@@ -1005,13 +1006,13 @@
     <div class="wrapper">
         <p class="qtn">¿Cuál de los siguientes programas es un acceso remoto no seguro?</p>
         <p class="aws">a. SSH</p>
-        <p class="aws right">b. Telnet</p>
+        <p class="aws" data-right>b. Telnet</p>
         <p class="aws">c. VNC</p>
         <p class="aws">d. Escritorio remoto de Windows</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando sirve para averiguar nuestro servidor DNS y devolver la IP de una página web?</p>
-        <p class="aws right">a. nslookup</p>
+        <p class="aws" data-right>a. nslookup</p>
         <p class="aws">b. ping</p>
         <p class="aws">c. route</p>
         <p class="aws">d. ipconfig</p>
@@ -1019,21 +1020,21 @@
     <div class="wrapper">
         <p class="qtn">Al compartir recursos en Windows, uno de los permisos que permite “Control total” pero que no permite “Cambio” es:</p>
         <p class="aws">a. Ejecutar un archivo</p>
-        <p class="aws right">b. Tomar posesión</p>
+        <p class="aws" data-right>b. Tomar posesión</p>
         <p class="aws">c. Agregar archivos y subcarpetas</p>
         <p class="aws">d. Eliminar subcarpetas y archivos</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica el servicio que permite configurar el equipo como router para permitir las comunicaciones entre varias redes.</p>
         <p class="aws">a. El servicio DHCP</p>
-        <p class="aws right">b. El cortafuegos iptables</p>
+        <p class="aws" data-right>b. El cortafuegos iptables</p>
         <p class="aws">c. El servicio DNS</p>
         <p class="aws">d. El servicio ROUTE</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando permite activar la red?</p>
         <p class="aws">a. ipconfig eth0 up</p>
-        <p class="aws right">b. service networking start</p>
+        <p class="aws" data-right>b. service networking start</p>
         <p class="aws">c. service enp0s3 up</p>
         <p class="aws">d. ifconfig network start</p>
     </div>
@@ -1042,32 +1043,32 @@
         <p class="aws">a. /etc/hostname</p>
         <p class="aws">b. /etc/dns.conf</p>
         <p class="aws">c. /etc/sysconfig/network.conf</p>
-        <p class="aws right">d. /etc/resolv.conf</p>
+        <p class="aws" data-right>d. /etc/resolv.conf</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es falsa sobre Samba?</p>
         <p class="aws">a. Samba permite compartir recursos entre máquinas Windows y Linux</p>
         <p class="aws">b. El fichero de configuración es /etc/samba/smb.conf</p>
-        <p class="aws right">c. Utiliza 2 puertos</p>
+        <p class="aws" data-right>c. Utiliza 2 puertos</p>
         <p class="aws">d. Para montar un recurso se utiliza la opción cifs en el comando mount</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál de las siguientes opciones no pertenece al comando service?</p>
         <p class="aws">a. start</p>
         <p class="aws">b. stop</p>
-        <p class="aws right">c. reboot</p>
+        <p class="aws" data-right>c. reboot</p>
         <p class="aws">d. status</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es el archivo de configuración de las tarjetas de red en Ubuntu?</p>
-        <p class="aws right">a. /etc/network/interfaces</p>
+        <p class="aws" data-right>a. /etc/network/interfaces</p>
         <p class="aws">b. /etc/networking/enp0s3</p>
         <p class="aws">c. /var/network/enp0s3</p>
         <p class="aws">d. /www/network/interfaces</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En samba ¿qué comando permite añadir el usuario luis?</p>
-        <p class="aws right">a. smbpasswd -a luis</p>
+        <p class="aws" data-right>a. smbpasswd -a luis</p>
         <p class="aws">b. adduser luis</p>
         <p class="aws">c. passwd luis</p>
         <p class="aws">d. smbadduser luis</p>
@@ -1077,12 +1078,12 @@
         <p class="aws">a. Telnet</p>
         <p class="aws">b. Open SSH</p>
         <p class="aws">c. VNC</p>
-        <p class="aws right">d. Todas son verdaderas</p>
+        <p class="aws" data-right>d. Todas son verdaderas</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica el fichero donde se guardan entradas de equipos/IP de forma manual.</p>
         <p class="aws">a. /etc/hostname</p>
-        <p class="aws right">b. /etc/hosts</p>
+        <p class="aws" data-right>b. /etc/hosts</p>
         <p class="aws">c. /etc/sysconfig/network</p>
         <p class="aws">d. /etc/resolv.conf</p>
     </div>
@@ -1090,26 +1091,26 @@
         <p class="qtn">Indica la opción incorrecta</p>
         <p class="aws">a. El servicio http utiliza el puerto 80</p>
         <p class="aws">b. El servicio ftp utiliza el puerto 21</p>
-        <p class="aws right">c. El servicio ssh utiliza el puerto 23</p>
+        <p class="aws" data-right>c. El servicio ssh utiliza el puerto 23</p>
         <p class="aws">d. El servicio https utiliza el puerto 443</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Cuál es falsa sobre Open ssh?</p>
-        <p class="aws right">a. Incorpora acceso remoto gráfico</p>
+        <p class="aws" data-right>a. Incorpora acceso remoto gráfico</p>
         <p class="aws">b. Utiliza el puerto 22</p>
         <p class="aws">c. Incorpora ftp seguro</p>
         <p class="aws">d. El archivo de configuración es /etc/ssh/sshd_config</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Es posible la transmisión de ficheros por FTP mediante el protocolo SSH?</p>
-        <p class="aws right">a. Si, y además es FTP seguro (SFTP)</p>
+        <p class="aws" data-right>a. Si, y además es FTP seguro (SFTP)</p>
         <p class="aws">b. No, porque son servicios diferentes</p>
         <p class="aws">c. Si, ofrece FTP estándar</p>
         <p class="aws">d. No, SSH y FTP no con compatibles porque SSH se cifra con 128 bits</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Qué comando permite instalar el servidor FTP en Ubuntu?</p>
-        <p class="aws right">a. apt install vsftpd</p>
+        <p class="aws" data-right>a. apt install vsftpd</p>
         <p class="aws">b. apt install ftp</p>
         <p class="aws">c. apt install ftpd</p>
         <p class="aws">d. yum install ftp</p>
@@ -1118,26 +1119,26 @@
         <p class="qtn">Para compartir un directorio mediante NFS, ¿qué fichero necesita modificar?</p>
         <p class="aws">a. /etc/nfs/nfs.conf</p>
         <p class="aws">b. /etc/nfs/nfs-config</p>
-        <p class="aws right">c. /etc/exports</p>
+        <p class="aws" data-right>c. /etc/exports</p>
         <p class="aws">d. /var/exports</p>
     </div>
     <div class="wrapper">
         <p class="qtn">¿Para qué se utiliza el servicio VNC?</p>
         <p class="aws">a. Porque es el único servicio que permite conexiones seguras</p>
         <p class="aws">b. Para crear redes privadas virtuales</p>
-        <p class="aws right">c. Para acceder de forma remota a equipos mediante la consola gráfica</p>
+        <p class="aws" data-right>c. Para acceder de forma remota a equipos mediante la consola gráfica</p>
         <p class="aws">d. Para acceder de forma remota a equipos mediante terminal</p>
     </div>
     <div class="wrapper">
         <p class="qtn">Indica el fichero donde se guarda el nombre del equipo.</p>
-        <p class="aws right">a. /etc/hostname</p>
+        <p class="aws" data-right>a. /etc/hostname</p>
         <p class="aws">b. /etc/hosts</p>
         <p class="aws">c. /etc/sysconfig/network</p>
         <p class="aws">d. /etc/resolv.conf</p>
     </div>
     <div class="wrapper">
         <p class="qtn">En Apache ¿en qué directorio se alojan por defecto las páginas web?</p>
-        <p class="aws right">a. /var/www/html</p>
+        <p class="aws" data-right>a. /var/www/html</p>
         <p class="aws">b. /www/apache2</p>
         <p class="aws">c. /var/html</p>
         <p class="aws">d. /etc/www/html</p>
@@ -1145,7 +1146,7 @@
     <div class="wrapper">
         <p class="qtn">¿Si queremos conocer por los equipos que pasamos para llegar a cualquier dirección, en Linux utilizamos?</p>
         <p class="aws">a. tracert</p>
-        <p class="aws right">b. traceroute</p>
+        <p class="aws" data-right>b. traceroute</p>
         <p class="aws">c. ifconfig</p>
         <p class="aws">d. nolookup</p>
     </div>
