@@ -3,6 +3,7 @@
         qtnContainerSelector: '.wrapper',
         awsSelector: '.aws',
         resetButtonSelector: '.btn',
+        containerSelector:'.container'
     };
 
     const quiz = () => {
@@ -46,16 +47,14 @@
         }
 
 		const reorderQuestions = (questions) =>{
-			const $body = document.querySelector("body");
-			const $h1 = $body.firstElementChild;
-			const $button = $body.lastElementChild;
-			$body.innerHTML = "";
-			$body.appendChild($h1);
+			const container = document.querySelector(selectors.containerSelector);
+			const $button = container.lastElementChild;
+			container.innerHTML = "";
 			questions = Array.from(questions).sort(() => Math.random() - 0.5);
 			questions?.forEach(qtn => {
-				$body.appendChild(qtn);
+				container.appendChild(qtn);
 		    });
-			$body.appendChild($button);
+			container.appendChild($button);
 			
 		};
         init();
