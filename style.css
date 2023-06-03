@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ h1{
 .wrapper .qtn{
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .wrapper .aws{
